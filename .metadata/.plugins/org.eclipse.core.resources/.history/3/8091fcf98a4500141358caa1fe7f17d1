@@ -1,0 +1,24 @@
+package tresenrayas;
+
+import ticTacToe.models.Tablero;
+import utils.Intervalo;
+
+public class Tablero {
+
+	public static
+	public static final int DIMENSION = 3;
+    public static final Intervalo RANGO =
+            new Intervalo(0, Tablero.DIMENSION - 1);
+    private static final char VACIA = '-';
+    private char[][] fichas =
+            new char[Tablero.DIMENSION][Tablero.DIMENSION];
+//    private Coordenada[][] coordenadas = new Coordenada[2][Tablero.DIMENSION];
+
+    public Tablero() {
+        for (int i = 0; i < Tablero.DIMENSION; i++) {
+            for (int j = 0; j < Tablero.DIMENSION; j++) {
+                fichas[i][j] = Tablero.VACIA;
+            }
+        }
+    }
+}

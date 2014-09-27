@@ -1,0 +1,31 @@
+package tresenrayas;
+
+public class Jugadores {
+
+	public Jugadores(char ficha) {
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public void toca(){}
+	
+	public void ponerFicha(Tablero tablero) {
+		// TODO Auto-generated method stub
+		
+	}
+	public boolean puestasTodas() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	public void moverFicha(Tablero tablero) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void victoria() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

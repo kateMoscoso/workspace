@@ -1,0 +1,6 @@
+package tresenrayas;
+
+public class Turno {
+	public void toca(){}
+
+}

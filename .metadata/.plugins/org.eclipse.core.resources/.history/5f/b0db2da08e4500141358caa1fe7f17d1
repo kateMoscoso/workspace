@@ -1,0 +1,17 @@
+package tresenrayas;
+
+public class TicTacToe {
+	Tablero tablero = new Tablero();
+	public void jugar(){
+		
+		
+	}
+	public static void main(String args[]){
+		
+		new TicTacToe().jugar();
+		
+		
+		
+	}
+
+}

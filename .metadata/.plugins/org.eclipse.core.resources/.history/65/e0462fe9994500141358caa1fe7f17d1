@@ -1,0 +1,37 @@
+package tresenrayas;
+
+
+
+
+public class Tablero {
+
+	public static final int DIMENSION = 3;
+ //   public char tablero[][] = new 
+    private char[][] tableros =
+        new char[Tablero.DIMENSION][Tablero.DIMENSION];
+    
+  //  private static final char VACIA = '-';
+ /*   private char[][] fichas =
+            new char[Tablero.DIMENSION][Tablero.DIMENSION];*/
+//    private Coordenada[][] coordenadas = new Coordenada[2][Tablero.DIMENSION];
+
+    public void mostrar() {
+        
+        
+    }
+
+	public boolean hayTER() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public boolean ocupada(Coordenada coordenada) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public void ponerFicha(Coordenada coordenada, char ficha) {
+		// TODO Auto-generated method stub
+		
+	}
+}

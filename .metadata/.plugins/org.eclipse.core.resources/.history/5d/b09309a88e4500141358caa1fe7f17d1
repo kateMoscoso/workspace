@@ -1,0 +1,26 @@
+package tresenrayas;
+
+public class TicTacToe {
+	Tablero tablero = new Tablero();
+	Turno turno = new Turno();
+	Jugadores[] jugadores = jugadores[2];
+	
+	public TicTacToe(){
+		for (int i = 0; i < jugadores.length; i++) {
+			jugadores[i] = new Jugadores();
+		}
+		
+	}
+	public void jugar(){
+		
+		
+	}
+	public static void main(String args[]){
+		
+		new TicTacToe().jugar();
+		
+		
+		
+	}
+
+}

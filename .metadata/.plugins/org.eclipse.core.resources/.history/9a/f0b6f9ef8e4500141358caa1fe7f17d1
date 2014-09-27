@@ -1,0 +1,25 @@
+package tresenrayas;
+
+
+
+
+public class Tablero {
+
+	public static final int DIMENSION = 3;
+ //   public char tablero[][] = new 
+    private char[][] tableros =
+        new char[Tablero.DIMENSION][Tablero.DIMENSION];
+    
+  //  private static final char VACIA = '-';
+ /*   private char[][] fichas =
+            new char[Tablero.DIMENSION][Tablero.DIMENSION];*/
+//    private Coordenada[][] coordenadas = new Coordenada[2][Tablero.DIMENSION];
+
+    public Tablero() {
+        for (int i = 0; i < Tablero.DIMENSION; i++) {
+            for (int j = 0; j < Tablero.DIMENSION; j++) {
+                fichas[i][j] = Tablero.VACIA;
+            }
+        }
+    }
+}

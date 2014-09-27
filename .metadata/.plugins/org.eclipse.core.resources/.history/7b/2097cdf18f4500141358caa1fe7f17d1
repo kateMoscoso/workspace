@@ -1,0 +1,18 @@
+package tresenrayas;
+
+public class Jugadores {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public void toca(){}
+	public void ponerFicha(Tablero tablero) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

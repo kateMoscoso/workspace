@@ -1,0 +1,32 @@
+package tresenrayas;
+
+public class TicTacToe {
+	Tablero tablero = new Tablero();
+	Turno turno = new Turno();
+	Jugadores[] jugadores = new Jugadores[2];
+
+	public TicTacToe(){
+		for (int i = 0; i < jugadores.length; i++) {
+			jugadores[i] = new Jugadores();
+		}
+
+	}
+	public void jugar(){
+		tablero.mostrar();
+		do{
+			if(jugadores[turno.toca()].puestasTodas()){
+				jugadores[turno.toca()].ponerFicha(tablero);
+			}
+			else 
+				jugadores[turno.toca()].moverFicha(tablero);
+			tablero.mostrar();
+			turno.cambiar();
+		}while(!tablero.hayTER());
+		jugadores[turno.noToca()].victoria();
+
+	}
+	public static void main(String args[]){		
+		new TicTacToe().jugar();
+	}
+
+}
